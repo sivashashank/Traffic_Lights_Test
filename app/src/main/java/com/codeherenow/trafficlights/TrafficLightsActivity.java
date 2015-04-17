@@ -59,7 +59,7 @@ public class TrafficLightsActivity extends Activity implements OnClickListener {
         redLight.setOnClickListener(this);
         yellowLight.setOnClickListener(this);
         greenLight.setOnClickListener(this);
-       
+
 }
 
     @Override
@@ -84,18 +84,15 @@ public class TrafficLightsActivity extends Activity implements OnClickListener {
 
 
     private void turnOnRedLight() {
-        turnOffLights();
         redLight.setImageResource(R.drawable.red_on);
 
     }
 
     private void turnOnYellowLight() {
-        turnOffLights();
         yellowLight.setImageResource(R.drawable.yellow_on);
     }
 
     private void turnOnGreenLight() {
-        turnOffLights();
         greenLight.setImageResource(R.drawable.green_on);
     }
 
